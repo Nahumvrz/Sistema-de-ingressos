@@ -1,6 +1,8 @@
 function comprar() {
-    let tipo = document.getElementById("tipo-ingresso").value;
-    let quantidade = document.getElementById("qtd").value;
-    let lista = document.getElementById("qtd-pista").value;
+    let tipo = document.getElementById("tipo-ingresso");
+    let quantidade = document.getElementById("qtd");
+
+    alert(tipo.value);
+    alert(quantidade.value);
 
 }
